@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- image tag to display image on site.
+    width -> set width of the image.
+    src -> source of the image.
+    alt -> show a text when src is incorrect. -->
+    <img width="350" src="wallpaperflare.com_wallpaper.jpg" alt="ryuk">
+
+    <br> <!--line break tag-->
+
+    <!-- table in html -->
+    <table>
+        <caption>Student Fav. Animes</caption> <!--caption -> to give caption to the table.-->
+        <thead> <!--header tag-->
+            head
+        </thead>
+        <tbody> <!-- body tag for the table-->
+            <tr> <!-- table row -->
+                <th>Name </th> <!--table head -->
+                <th>Roll no.</th>
+                <th>Fav. Anime</th>
+            </tr>
+
+            <tr>
+                <td>Rajat</td> <!-- table desitination -->
+                <td>112301044</td>
+                <td rowspan="2">AOT</td>
+            </tr>
+
+            <tr>
+                <td>Vishesh</td>
+                <td>112301037</td>
+                <!-- <td>AOT</td> -->
+            </tr>
+
+            <tr>
+                <!-- colspan -> merge n number of coulmns. -->
+                <td colspan="2">Rajdeep</td>
+                <!-- <td>112301045</td> -->
+                <td>Monster</td>
+            </tr>
+
+            <tr>
+                <td>Nimesh</td> <!-- table desitination -->
+                <td>102301024</td>
+                <td>Demon Slayer</td>
+            </tr>
+        </tbody>
+
+        <tfoot><!--footer tag-->
+            <tr>
+                <td>foot</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- lists in html -->
+    
+    <h3>Unordered List</h3>
+    <ul type="square"> <!--unordered list--> <!--type -> types of bullet point mark (disc, square, circle)-->
+        <li>Rajat</li>
+        <li>Vishesh</li>
+        <li>Rajdeep</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol type="I"> <!--ordered list--> <!--type -> I, i (romen numbers) and A,a (alphabets)-->
+        <li>Rajat</li>
+        <li>Vishesh</li>
+        <li>Rajdeep</li>
+    </ol>
+
+    <h3>Defination List</h3>
+    <dl> <!--defination list-->
+        <dt>HTML</dt> <!--defination term-->
+        <dd>HyperText Markup Language: The standard language for creating web pages.</dd> <!--defination-->
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets: A stylesheet language used for describing the look and formatting of a document
+            written in HTML.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>A programming language commonly used in web development to add interactive features.</dd>
+    </dl>
+</body>
+
+</html>
