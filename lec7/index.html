@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input</title>
+</head>
+
+<body>
+    <h1>Learning about forms and input</h1>
+    <form action="post"> <!--two actions get and post.-->
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="Username" placeholder="Enter your name"> <!--input tag-->
+        </div>
+        
+        <div><!--radio circle-->
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div><!--check box-->
+            <input type="checkbox" name="Accept" id="accept" value="yes">
+            <label for="accept">Accept</label>
+        </div>
+
+        <div><!--Text area-->
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+        </div>
+
+        <div><!--select-->
+            <label for="ipl">Select your ipl team</label>
+            <br>
+            <select name="IPL Team" id="ipl">
+                <option value="RR">RR</option>
+                <option value="MI">MI</option>
+                <option value="CSK">CSK</option>
+                <option value="RCB">RCB</option>
+                <option value="KKR">KKR</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
