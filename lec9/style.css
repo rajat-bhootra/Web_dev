@@ -1,0 +1,13 @@
+/* use .(classname) to hit the class */
+.red{
+    color: red;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+/* use #(id) to hit the id */
+#second{
+    color:rgb(4, 255, 0);
+}
