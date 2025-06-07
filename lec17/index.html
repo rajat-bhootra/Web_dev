@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* Element selector */
+        div {
+            background-color: orange;
+        }
+
+        /* class selector */
+        .blue {
+            color: blue;
+            background-color: white;
+        }
+
+        /* id selector */
+        #green {
+            background-color: green;
+        }
+
+        /* child selector */
+        div>p {
+            color: yellow;
+            background-color: black;
+        }
+
+        /* desecendant selector */
+        #div p {
+            color: red;
+            background-color: black;
+        }
+
+        /* universal selector */
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        /* pseudo selectors */
+        a:visited{
+            color: red;
+        }
+        
+        a:hover{
+            background-color: yellow;
+        }
+
+        a:link{
+            color: green;
+        }
+
+        a:active{
+            background-color: black;
+        }
+
+        p:first-child{
+            color: blueviolet;  
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <p>first p</p>
+        <p>second p</p>
+    </main>
+    <div>element seletor</div>
+
+    <div class="blue">class seletor</div>
+
+    <div id="green">id selector
+        <p>
+            this is child selector
+        </p>
+    </div>
+
+    <div id="div">
+        <article>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem aperiam ipsam exercitationem est aliquam
+                facilis commodi, reiciendis officiis omnis similique, maiores ullam velit voluptatibus at iste saepe
+                amet ab alias soluta id, quae optio? Sint quidem, eum nobis ducimus tenetur natus repellendus, maxime
+                voluptate atque pariatur, mollitia corporis beatae nemo.
+            </p>
+        </article>
+    </div>
+
+    <a target="_blank" href="http://google.com">Google</a>
+    <a target="_blank" href="http://facebook.com">Facebook</a>
+
+</body>
+
+</html>
