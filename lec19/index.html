@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS font, text and color properties</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+        h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: underline;
+            text-transform: uppercase;
+            text-decoration-color: blue;
+            text-decoration-style: wavy ;
+            text-decoration-thickness: 5px;
+            text-align: center;
+        }
+
+        p{
+            font-family: "Goldman", sans-serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 25px;
+            color: red;
+            line-height: 1.5;
+            /* letter-spacing: 4px; */
+
+        }
+
+        .lorem{
+            border: 5px solid purple;
+            width: 555px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-all;
+        }
+
+        #keyword{
+            color: darkgoldenrod;
+        }
+        
+        #hex{
+            color: #ff00f0;
+        }
+
+        #rgb{
+            color: rgb(13, 85, 228);
+        }
+
+        #rgba{
+            color: rgba(13, 255, 0, 0.541);
+        }
+
+        #hsl{
+            color: hsl(64, 90%, 49%);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Fonts</h1>
+        <p>this lecture is on CSS fonts</p>
+        <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis est consequatur sunt fugit accusamus odit numquam animi omnis maiores sequi. Incidunt, reprehenderit officiis?</p>
+    </div>
+
+    <div>
+        <h1>Colors</h1>
+        <p>
+            Colors can be represented in :
+            <ol>
+                <li id="keyword">Color Keyword</li>
+                <li id="hex">Hex Code </li>
+                <li id="rgb">RGB</li>
+                <li id="rgba">RGBA</li>
+                <li id="hsl">HSL</li>
+            </ol>
+        </p>
+    </div>
+</body>
+</html>
