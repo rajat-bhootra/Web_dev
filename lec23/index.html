@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            border: 5px solid red;
+            /* display: inline; */
+            width: 200px;
+            display: inline-block;
+            padding: 10px;
+            margin: 15px;
+        }
+
+        .box1{
+            /* display: none; */
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        This is a box
+    </div>
+    <div class="box">This is another box</div>
+    <span>The span is </span>
+    <span>Inline element</span>
+</body>
+</html>
