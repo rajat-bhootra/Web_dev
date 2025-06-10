@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <style>
+        body{
+            background-color: azure;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .card{
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 350px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);;
+        }
+        .img {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .img > img{
+            border-radius: 12px;
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .tag{
+            background-color: rgba(128, 128, 128, 0.127);
+            box-shadow: 0 0 5px 1px #15101070;
+            border-radius: 16px;
+            padding: 4px 12px;
+            margin: 10px 10px 0px 15px;
+            display: inline-block;
+            font-size: 14px; 
+        }
+
+        .read-more{
+            border-radius: 24px;
+            color: rgb(75, 75, 235);
+            background-color: rgba(155, 217, 241, 0.5);
+            padding:10px 16px;
+            margin: 15px auto 20px auto; 
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            width: fit-content;
+            
+        }
+
+        h2{
+            padding: 12px 15px 5px 15px;
+            margin: 0;
+            font-size: 22px;
+        }
+
+        p{
+            padding: 5px 15px 10px 15px; 
+            margin: 0;
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+    <div class="card">
+        <div class="img">
+            <img src="https://i.pinimg.com/736x/3c/99/9c/3c999cd310f95f8878f38589b7ac8167.jpg" alt="Image">
+        </div>
+        <span class="tag">Naruto</span>
+        <span class="tag">Sky</span>
+        <h2>Naruto Uzumaki</h2>
+        <p>
+            Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. He is a ninja from the fictional Hidden Leaf Village. As a boy, Naruto is ridiculed and ostracized on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in his body. 
+        </p>
+        <div class="read-more">
+            Read More    
+        </div>
+    </div>
+</body>
+</html>
+
