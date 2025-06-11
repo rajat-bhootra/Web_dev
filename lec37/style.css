@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    background-color: plum;
+    height: 50px;
+}
+
+.boxes{
+    background-color: aqua;
+    margin: 12px 34px;
+    text-align: center;
+    padding: 55px 25px;
+}
+.box1{
+    background-color: brown;
+    display: inline-block;    
+    width: 45%;
+    height: 70vh;
+    margin: 0px 15px;
+}
+
+.box2{
+    background-color: rebeccapurple;
+    display: inline-block; 
+    width: 45%;
+    height: 70vh; 
+    margin: 0px 15px;  
+}
+
+.text-box{
+    border: 5px solid purple;
+    font-size: 2em;
+    text-align: center;
+    padding: 34px;
+    margin: 10px 30vw;
+    border-radius: 20px;
+}
+
+.circle{
+    background-color: orange;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+
+main{
+    background-color: black ;
+    color: white;
+    padding: 35px   ;
+}
+
+footer{
+    background-color: rgb(70, 163, 244);
+    height: 100px;
+}
