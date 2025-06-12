@@ -1,0 +1,4 @@
+img{
+    width: 500px;
+    filter:brightness(2) sepia(50%);
+}   
