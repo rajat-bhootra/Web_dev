@@ -1,0 +1,16 @@
+.container{
+    height: 575px;
+    width: 955px;
+    background-color: aqua;
+    border: 5px solid black;
+    background-position: top center;
+    background-image: url("https://i.pinimg.com/originals/41/18/ef/4118efe4ef45befc56ff3fab487cb4b6.jpg");
+}
+
+
+img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: top center;
+}
