@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.bg {
+    background-image: url(assets/image/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.bg .box {
+    background-color: black;
+    width: 100%;
+    height: 70vh;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 62px;
+}
+
+nav img {
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.text {
+    height: calc(100% - 62px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal; */
+    gap: 23px;
+    overflow: auto;
+}
+
+.text h1 {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    max-width: 800px;
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 125%;
+}
+
+.text span {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.text h3 {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.email{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    margin-bottom: 5px;
+}
+.email input {
+    background: transparent;
+    border: 1px solid gray;
+    font-size: 1rem;    
+    padding: 1.0rem 1rem 0.5rem;
+    width: 400px;
+    height: 1.5em;
+}
+
+.curve {
+    width: 100%;
+    height: 5px;
+    border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-top-left-radius: 50% 100%; border-top-right-radius: 50% 100%;
+    background-image: linear-gradient(to right, rgb(33, 13, 22) 16%, rgb(184, 40, 105), rgb(229, 9, 20), rgb(184, 40, 105), rgb(33, 13, 22) 84%);
+    
+}
+
+.btn{
+    padding: 4px 16px;
+    font-weight: bold;
+    color: white;
+    display: inline-flex;
+    border-radius: 4px;
+
+}
+
+.red-si{
+    background-color: rgb(229, 9, 20);
+    cursor: pointer;
+    border: 0;
+}
+
+.red-gs{
+    background-color: rgb(229, 9, 20);
+    font-size: 20px;
+    border: 0;
+    height: 50px;
+    align-items: center;
+}
