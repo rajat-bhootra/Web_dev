@@ -11,52 +11,54 @@ body {
 
 .bg {
     background-image: url(assets/image/background.jpg);
-    background-position: center center;
+    /* background-position: center center; */
+    object-fit: cover;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
-    height: 70vh;
+    height: 96vh;
     position: relative;
+    box-shadow: 0px 0px 20px 20px black inset;
+
 }
 
 .bg .box {
     background-color: black;
     width: 100%;
-    height: 70vh;
+    height: 96vh;
     opacity: 0.7;
     position: absolute;
     top: 0;
+
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 60vw;
+    max-width: 65vw;
     margin: auto;
-    height: 62px;
+    height: 88px;
 }
 
 nav img {
     position: relative;
+    height: 32px;
     z-index: 1;
 }
 
-nav button {
+nav button, select{
     position: relative;
     z-index: 1;
 }
 
 .text {
-    height: calc(100% - 62px);
+    height: calc(100% - 88px);
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    /* font-family: "Martel Sans", sans-serif;
-    font-weight: 900;
-    font-style: normal; */
     gap: 23px;
     overflow: auto;
 }
@@ -65,10 +67,10 @@ nav button {
     font-family: "Martel Sans", sans-serif;
     font-weight: 900;
     font-style: normal;
-    max-width: 800px;
+    max-width: 700px;
     display: block;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 125%;
 }
 
@@ -76,15 +78,15 @@ nav button {
     font-family: "Martel Sans", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     text-align: center;
 }
 
 .text h3 {
-    font-family: "Martel Sans", sans-serif;
-    font-weight: 10;
+    font-family: sans-serif;  
+    font-weight: 0;
     font-style: normal;
-    font-size: 1rem;
+    font-size: .75rem;
     text-align: center;
 }
 
@@ -96,12 +98,14 @@ nav button {
     margin-bottom: 5px;
 }
 .email input {
-    background: transparent;
+    background: rgba(0, 0, 0, 0.196);
     border: 1px solid gray;
-    font-size: 1rem;    
-    padding: 1.0rem 1rem 0.5rem;
+    font-size: .9rem;  
+    font-weight: 700;  
+    padding: 1.0rem 1rem 0.6rem;
     width: 400px;
     height: 1.5em;
+    border-radius: 4px;
 }
 
 .curve {
@@ -118,13 +122,26 @@ nav button {
     color: white;
     display: inline-flex;
     border-radius: 4px;
-
+}
+select{
+    padding: 4px 6px;
+    font-weight: bold;
+    color: white;
+    display: inline-flex;
+    border-radius: 2px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.133);
+    border: 2px solid rgb(83, 83, 83);
 }
 
 .red-si{
     background-color: rgb(229, 9, 20);
     cursor: pointer;
     border: 0;
+}
+
+.red-si:hover{
+    background-color: rgb(203, 9, 18);
 }
 
 .red-gs{
@@ -134,3 +151,8 @@ nav button {
     height: 50px;
     align-items: center;
 }
+
+.red-gs:hover{
+    background-color: rgb(203, 9, 18);
+}
+
