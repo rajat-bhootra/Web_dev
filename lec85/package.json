@@ -1,0 +1,22 @@
+{
+  "name": "npm_tutorial",
+  "version": "1.0.0",
+  "description": "this is a tutorial",
+  "keywords": [
+    "tut",
+    "npm",
+    "teach"
+  ],
+  "license": "ISC",
+  "author": "Rajat",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "slugify": "^1.6.6"
+  }
+}
