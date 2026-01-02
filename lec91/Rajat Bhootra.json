@@ -1,0 +1,212 @@
+{
+  "title": "Rajat Bhootra",
+  "basic": {
+    "name": "Rajat Bhootra",
+    "title": "Senior Frontend Engineer",
+    "employementStatus": "Available",
+    "email": "rajatbhootra7@gmail.com",
+    "phone": "6367160924",
+    "location": "Jodhpur, Rajasthan",
+    "birthDate": "2006-03-17T18:30:00.000Z",
+    "fieldOrder": [
+      {
+        "id": "1",
+        "key": "name",
+        "label": "姓名",
+        "type": "text",
+        "visible": true
+      },
+      {
+        "id": "2",
+        "key": "title",
+        "label": "职位",
+        "type": "text",
+        "visible": false
+      },
+      {
+        "id": "4",
+        "key": "birthDate",
+        "label": "生日",
+        "type": "date",
+        "visible": true
+      },
+      {
+        "id": "5",
+        "key": "email",
+        "label": "邮箱",
+        "type": "text",
+        "visible": true
+      },
+      {
+        "id": "6",
+        "key": "phone",
+        "label": "电话",
+        "type": "text",
+        "visible": true
+      },
+      {
+        "id": "7",
+        "key": "location",
+        "label": "所在地",
+        "type": "text",
+        "visible": true
+      }
+    ],
+    "icons": {
+      "email": "Mail",
+      "phone": "Phone",
+      "birthDate": "CalendarRange",
+      "employementStatus": "Briefcase",
+      "location": "MapPin"
+    },
+    "photoConfig": {
+      "width": 90,
+      "height": 120,
+      "aspectRatio": "1:1",
+      "borderRadius": "none",
+      "customBorderRadius": 0,
+      "visible": false
+    },
+    "customFields": [
+      {
+        "id": "b6fba6d6-3d94-4fc8-af95-5ca2e630ddee",
+        "label": "Student Mail",
+        "value": "112301044@smail.iitpkd.ac.in",
+        "icon": "Mail",
+        "visible": true
+      },
+      {
+        "id": "6c701c7d-7571-428a-b327-c545c56e1e80",
+        "label": "Github",
+        "value": "https://github.com/rajat-bhootra",
+        "icon": "Github",
+        "visible": true
+      }
+    ],
+    "photo": "/avatar.png",
+    "githubKey": "",
+    "githubUseName": "rajat-bhootra",
+    "githubContributionsVisible": false,
+    "layout": "left"
+  },
+  "education": [
+    {
+      "id": "1",
+      "school": "Indian Institute of Technology, Palakkad",
+      "major": "Computer Science and Engineering",
+      "degree": "B. Tech",
+      "startDate": "2023-08-08T18:30:00.000Z",
+      "endDate": "2027-07-30T18:30:00.000Z",
+      "visible": true,
+      "gpa": "",
+      "description": "<ul class=\"custom-list\"><li><p style=\"text-align: left\">Core courses: Data Structures, Algorithms, Operating Systems, Computer Architecture, Systems Programming, Foundation of Computing Systems</p></li></ul>"
+    }
+  ],
+  "skillContent": "<ul class=\"custom-list\"><li><p><strong>Programming Languages</strong> - C/C++, Python</p></li><li><p><strong>Tools</strong> - PyTorch, NumPy, Pandas, SciPy, Scikit-learn, Matplotlib</p></li><li><p><strong>Web Development </strong>- HTML, CSS, JavaScript</p></li></ul>",
+  "experience": [
+    {
+      "id": "1",
+      "company": "ByteDance",
+      "position": "Senior Frontend Engineer",
+      "date": "2021/7 - Present",
+      "visible": true,
+      "details": "<ul class=\"custom-list\">\n      <li>Responsible for development and maintenance of TikTok Creator Platform, leading technical solution design for core features</li>\n      <li>Optimized build configuration, reducing build time from 8 minutes to 2 minutes, improving team development efficiency</li>\n      <li>Designed and implemented component library, increasing code reuse by 70%, significantly reducing development time</li>\n      <li>Led performance optimization project, reducing platform first-screen loading time by 50%, integrated APM monitoring system</li>\n      <li>Mentored junior engineers, organized technical sharing sessions to improve overall team technical capabilities</li>\n    </ul>"
+    }
+  ],
+  "draggingProjectId": null,
+  "projects": [
+    {
+      "id": "p1",
+      "name": "Snake Game",
+      "role": "",
+      "date": "7/2025 - 8/2025",
+      "description": "<p>Developed a multi-mode Snake game in Python using Pygame, featuring Classic, Timed, Hardcore, Zen, and Survival modes with mode-specific scoring and high score tracking. Implemented responsive full screen scaling, asset management, and smooth animations for an engaging cross-platform experience.</p>",
+      "visible": true,
+      "link": "https://github.com/rajat-bhootra/Snake_Game"
+    },
+    {
+      "id": "p2",
+      "name": "Netflix UI Clone",
+      "role": "",
+      "date": "7/2025 - 7/2025",
+      "description": "<p>This Netflix clone is a responsive front-end replica of the oﬃcial Netflix India homepage, built using HTML and CSS. Styled to closely match the original, it is deployed and publicly accessible through Vercel for seamless viewing and sharing</p>",
+      "visible": true,
+      "link": "https://mynetflixui.vercel.app/"
+    },
+    {
+      "id": "p3",
+      "name": "OELP-P098 (ML in Civil Engineering)",
+      "role": "",
+      "date": "8/2025-11/2025",
+      "description": "<p>Built hybrid constitutive models using ML (MLP, PINN) and classical mechanics (Voce hardening, hyperelasticity) to accurately predict uniaxial and biaxial stress–strain responses of engineering materials for structural applications.</p>",
+      "visible": true,
+      "link": "https://github.com/nimeshgarg99/OELP-P098/tree/master"
+    }
+  ],
+  "menuSections": [
+    {
+      "id": "basic",
+      "title": "Profile",
+      "icon": "👤",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "icon": "🎓",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "icon": "🚀",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "skills",
+      "title": "Skills",
+      "icon": "⚡",
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "custom-1",
+      "title": "Achievments",
+      "icon": "➕",
+      "enabled": true,
+      "order": 4
+    }
+  ],
+  "customData": {
+    "custom-1": [
+      {
+        "id": "d4a1702e-290c-4754-aa68-83d11db2fc40",
+        "title": "Inter IIT Cultural Meet 7.0",
+        "subtitle": "",
+        "dateRange": "2024",
+        "description": "<p>Secure the 5th position under the category of Street Photography in the Inter IIT Cultural Meet 7.0, hosted by IIT-PATNA</p>",
+        "visible": true
+      }
+    ]
+  },
+  "activeSection": "projects",
+  "globalSettings": {
+    "baseFontSize": 16,
+    "pagePadding": 32,
+    "paragraphSpacing": 16,
+    "lineHeight": 1.5,
+    "sectionSpacing": 24,
+    "headerSize": 18,
+    "subheaderSize": 16,
+    "useIconMode": true,
+    "themeColor": "#8B0000",
+    "centerSubtitle": false
+  },
+  "id": "5190ef25-fe59-4e02-ac3b-263d1422e540",
+  "createdAt": "2025-08-10T07:30:14.505Z",
+  "updatedAt": "2025-08-10T07:30:14.505Z",
+  "templateId": "left-right"
+}
