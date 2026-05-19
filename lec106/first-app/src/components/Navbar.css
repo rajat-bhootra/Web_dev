@@ -1,0 +1,21 @@
+nav{
+    background-color: rgb(189, 199, 120);
+    height: 50px;
+    width: 100%;
+    display:flex ;
+    gap: 30px;
+    align-items: center;
+    justify-content:right;
+}
+
+ul{
+    display:flex ;
+    gap: 30px;
+    align-items: center;
+    justify-content:right;
+    padding-right: 5%;
+}
+
+li{
+    list-style: none;
+}

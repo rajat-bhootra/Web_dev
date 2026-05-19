@@ -1,0 +1,11 @@
+.card{
+    width: 25vw;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    height: 50vh;
+}
+
+.card img {
+    width: 100%;
+}
